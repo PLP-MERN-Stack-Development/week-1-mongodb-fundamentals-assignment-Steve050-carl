@@ -44,4 +44,19 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/)
+- # PLP Bookstore MongoDB Project
+
+## How to Run
+
+1. Open `mongosh`
+2. Run `load("insert_books.js")` to insert sample data
+3. Run `load("queries.js")` to execute all queries
+4. View results in MongoDB Compass or Atlas
+
+## Project Files
+
+- `insert_books.js` — Contains initial data insertion
+- `queries.js` — Contains all CRUD, advanced queries, and aggregations
+- `README.md` — This instruction file
+- `screenshots/` — Contains a screenshot of your collection view
